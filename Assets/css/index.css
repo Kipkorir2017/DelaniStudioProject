@@ -14,3 +14,34 @@
 .center{
     padding-top:5% ;
 }
+.about{
+    text-align: center;
+    padding: 5%;
+}
+.services{
+    text-align: center;
+    color: white;
+    background:url(/Assets/backgroundImages/s_image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100% ;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#wedo{
+     text-align: center;
+}
+.center1{
+     
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+        
+      
+}
+.descr{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.7;
+}
