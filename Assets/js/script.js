@@ -1,0 +1,18 @@
+$(document).ready(function(){
+    $(".one").hover(function(){
+    $("#description").toggle()
+    $("#img1").toggle();
+    })
+});
+$(document).ready(function(){
+    $(".two").hover(function(){
+    $("#description1").toggle()
+    $("#img2").toggle();
+    })
+});
+$(document).ready(function(){
+    $(".three").hover(function(){
+    $("#description2").toggle()
+    $("#img3").toggle();
+    })
+});
