@@ -1,0 +1,16 @@
+.header{
+    color: white;
+    text-align: center;
+    background-image:url(/Assets/backgroundImages/h_img.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100% ;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    
+    
+    
+}
+.center{
+    padding-top:5% ;
+}
