@@ -1,5 +1,6 @@
 html{
     font-family: 'Oswald', sans-serif;
+    width: 100%;
 }
 .header{
     color: white;
@@ -7,19 +8,30 @@ html{
     background-image:url(/Assets/backgroundImages/h_img.jpg) ;
     background-size: cover;
     background-repeat: no-repeat;
-    width:100% ;
-    padding-top: 10%;
-    padding-bottom: 5%;
+    width:auto ;
+    padding-top: 90px;
+    /* padding-bottom: 17%; */
+    
     
     
     
 }
+.logo{
+    padding-top: 80px;
+}
+.header h2{
+    padding-top: 40px;
+}
+#amazing{
+    font-size: 13px;
+}
 .center{
-    padding-top:5% ;
+    padding-top: 110px;
+    padding-bottom: 15px;
 }
 .about{
     text-align: center;
-    padding: 5%;
+    padding: 2%;
 }
 .services{
     text-align: center;
