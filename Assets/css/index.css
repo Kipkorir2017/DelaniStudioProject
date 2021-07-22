@@ -56,19 +56,21 @@
 }
 .contact{
     text-align: center;
-    color: transparent;
+    /* color: transparent; */
     background:url(/Assets/backgroundImages/c_image.jpg);
+    opacity: 0.9;
     
     
    }
    .contact h4{
+    padding-top: 5%;
     color: white;
     font-weight: 800;
    }
    input,textarea {
     background: transparent;
     color: transparent;
-    border: 2px white solid;
+    border: 1px whitesmoke solid;
     
   }
   ::placeholder{
