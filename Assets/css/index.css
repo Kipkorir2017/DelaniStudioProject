@@ -17,7 +17,7 @@ html{
     
 }
 .logo{
-    padding-top: 80px;
+    padding-top: 70px;
 }
 .header h2{
     padding-top: 40px;
@@ -33,8 +33,12 @@ html{
     text-align: center;
     padding: 2%;
 }
+.about p {
+    font-size: 14px;
+}
 .services{
     text-align: center;
+    font-size: 13px;
     color: white;
     background:url(/Assets/backgroundImages/s_image.jpg);
     background-size: cover;
@@ -104,5 +108,11 @@ html{
     margin-left: auto;
     margin-right: auto;
     padding-top: 2%;
+  }
+  @media screen and(max-width:700px) {
+       textarea {
+          width: 50%;
+      }
+      
   }
  
