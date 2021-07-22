@@ -57,14 +57,13 @@
 .contact{
     text-align: center;
     color: transparent;
-    background:url(/Assets/backgroundImages/s_image.jpg);
+    background:url(/Assets/backgroundImages/c_image.jpg);
     
     
    }
    .contact h4{
     color: white;
-    color: transparent;
-    resize: none;
+    font-weight: 800;
    }
    input,textarea {
     background: transparent;
