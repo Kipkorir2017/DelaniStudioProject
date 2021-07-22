@@ -1,4 +1,4 @@
-# DELANI STUDION
+# DELANI STUDIO
 #### This a landing page of Delani Studio {22/07/2021}
 #### By ** Benjamin Kipkorir**
 ## Description
