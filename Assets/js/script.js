@@ -1,17 +1,17 @@
 $(document).ready(function(){
-    $(".one").hover(function(){
+    $(".one").click(function(){
     $(".description").toggle()
     $("#img1").toggle();
     })
 });
 $(document).ready(function(){
-    $(".two").hover(function(){
+    $(".two").click(function(){
     $(".description1").toggle()
     $("#img2").toggle();
     })
 });
 $(document).ready(function(){
-    $(".three").hover(function(){
+    $(".three").click(function(){
     $(".description2").toggle()
     $("#img3").toggle();
     })
