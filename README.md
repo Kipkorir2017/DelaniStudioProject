@@ -16,6 +16,7 @@ There no known bugs at the moment
 * BootStrap
 * JavaScript
 * Jquery
+### This a Live link to the project https://kipkorir2017.github.io/DelaniStudioProject/
 ## Support and contact details
 Incase you have challenge feel free to contact me on  these contact details:
  * +254710383269
