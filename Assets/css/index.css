@@ -5,7 +5,7 @@ html{
 .header{
     color: white;
     text-align: center;
-    background-image: url(Assets/backgroundImages/h_img.jpg);
+    background-image: url(../backgroundImages/h_img.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width:auto ;
@@ -40,7 +40,7 @@ html{
     text-align: center;
     font-size: 13px;
     color: white;
-    background:url(/Assets/backgroundImages/s_image.jpg);
+    background-image:url(../backgroundImages/s_image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width:100% ;
@@ -92,7 +92,7 @@ html{
 .contact{
     text-align: center;
     /* color: transparent; */
-    background:url(/Assets/backgroundImages/c_image.jpg);
+    background:url(../backgroundImages/c_image.jpg);
     opacity: 0.9;
     padding-bottom: 5%;
     
