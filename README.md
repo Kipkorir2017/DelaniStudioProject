@@ -22,5 +22,5 @@ Incase you have challenge feel free to contact me on  these contact details:
  * pkobenj41@gmail.com
 
 ### License
-* <a href="https://opensource.org/licenses/MIT">MIT</a> license 
+* <a href="https://github.com/Kipkorir2017/DelaniStudioProject/blob/gh-pages/LICENCE">MIT</a> license 
 Copyright (c) {2021} Benjamin Kipkorir

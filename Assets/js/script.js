@@ -8,7 +8,7 @@ function validateForm(){
         alert("invalid email");
         return false;
     }
-    else if(name==" "){
+    else if(name ===""){
         alert("Name must be filled out");
         return false;
     }
