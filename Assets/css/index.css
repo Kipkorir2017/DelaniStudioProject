@@ -53,6 +53,7 @@ html{
 }
 .descriptions p{
     display: none;
+    text-align:center
 }
 .center1{
      
@@ -99,6 +100,8 @@ html{
     background:url(../backgroundImages/c_image.jpg);
     opacity: 0.9;
     padding-bottom: 5%;
+    padding-top:3%;
+    background-size: cover;
     
     
    }
@@ -107,18 +110,26 @@ html{
     color: white;
     font-weight: 800;
    }
-   input,textarea {
+   input{
     background: transparent;
     /* color: transparent; */
     border: 1px whitesmoke solid;
+    width: 32%;
     
+  }
+  textarea{
+    background: transparent;
+    /* color: transparent; */
+    border: 1px whitesmoke solid;
   }
   ::placeholder{
       color: white;
   }
   #btn{
       border-radius: 5px 5px 5px 5px;
-      width: 10%;
+      width: 15%;
+      background:transparent;
+      color: white;
   }
   .footer h6{
       text-align: center;
@@ -133,10 +144,63 @@ html{
     margin-right: auto;
     padding-top: 2%;
   }
-  @media screen and(max-width:700px) {
-       textarea {
-          width: 50%;
-      }
+  @media screen and (max-width:500px) {
+      .contact {
+      display:block;    
       
+      }
+      textarea{
+        width: 70%;
+      }
+       
   }
- 
+  @media screen and (max-width:600px) {
+    .contact {
+    display:block;    
+    
+    }
+    textarea{
+      width: 70%;
+    }
+     
+}
+@media screen and (max-width:700px) {
+    .contact {
+    display:block;    
+    
+    }
+    textarea{
+      width: 70%;
+    }
+     
+}
+@media screen and (max-width:800px) {
+    .contact {
+    display:block;    
+    
+    }
+    textarea{
+      width: 70%;
+    }
+     
+}
+@media screen and (max-width:900px) {
+    .contact {
+    display:block;    
+    
+    }
+    textarea{
+      width: 70%;
+    }
+     
+}
+@media screen and (max-width:1000px) {
+    .contact {
+    display:block;    
+    
+    }
+    textarea{
+      width: 70%;
+    }
+     
+}
