@@ -5,7 +5,7 @@ html{
 .header{
     color: white;
     text-align: center;
-    background-image:url(/Assets/backgroundImages/h_img.jpg) ;
+    background-image: url(Assets/backgroundImages/h_img.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width:auto ;
