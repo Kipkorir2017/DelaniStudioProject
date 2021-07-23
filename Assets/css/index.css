@@ -117,7 +117,7 @@ html{
     background: transparent;
     /* color: transparent; */
     border: 1px whitesmoke solid;
-    width: 40%;
+    width: 30%;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
@@ -129,7 +129,7 @@ html{
     background: transparent;
     /* color: transparent; */
     border: 1px whitesmoke solid;
-    width: 80%;
+    width: 60%;
     margin-right: 10%;
     margin-left: 10%;
   }
