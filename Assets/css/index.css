@@ -105,7 +105,7 @@ html{
    }
    input,textarea {
     background: transparent;
-    color: transparent;
+    /* color: transparent; */
     border: 1px whitesmoke solid;
     
   }
