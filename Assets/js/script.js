@@ -21,20 +21,21 @@ function validateForm(){
 // Using Jquery to toggle
 $(document).ready(function(){
     $(".one").click(function(){
-    $(".description").toggle()
-    $("#img1").toggle();
+    $(".description").slideToggle()
+    $("#img1").slideToggle();
     })
 });
 $(document).ready(function(){
     $(".two").click(function(){
-    $(".description1").toggle()
-    $("#img2").toggle();
+    $(".description1").slideToggle()
+    $("#img2").slideToggle();
     })
 });
 $(document).ready(function(){
     $(".three").click(function(){
-    $(".description2").toggle()
-    $("#img3").toggle();
+    $(".description2").slideToggle()
+    $("#img3").slideToggle();
     })
 });
+
 

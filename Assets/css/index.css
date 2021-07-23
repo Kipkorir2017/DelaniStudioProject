@@ -94,6 +94,13 @@ html{
     margin-left: 100px;
     margin-right: 100px;
 }
+.projects h5{
+    display: none;
+    border: 3px solid white;
+    height: 25%;
+    width:25%
+}
+
 .contact{
     text-align: center;
     /* color: transparent; */
