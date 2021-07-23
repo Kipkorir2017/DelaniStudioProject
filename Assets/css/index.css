@@ -89,6 +89,10 @@ html{
     margin: 5%;
         
 }
+.projects{
+    margin-left: 100px;
+    margin-right: 100px;
+}
 .contact{
     text-align: center;
     /* color: transparent; */
@@ -111,6 +115,10 @@ html{
   }
   ::placeholder{
       color: white;
+  }
+  #btn{
+      border-radius: 5px 5px 5px 5px;
+      width: 10%;
   }
   .footer h6{
       text-align: center;
