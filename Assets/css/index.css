@@ -9,7 +9,7 @@ html{
     background-size: cover;
     background-repeat: no-repeat;
     width:auto ;
-    padding-top: 90px;
+    padding-top: 30px;
     /* padding-bottom: 17%; */
     
     
@@ -17,10 +17,10 @@ html{
     
 }
 .logo{
-    padding-top: 70px;
+    padding-top: 100px;
 }
 .header h2{
-    padding-top: 40px;
+    padding-top: 50px;
 }
 #amazing{
     font-size: 13px;
@@ -150,7 +150,7 @@ html{
       display:block;    
       
       }
-      textarea{
+      input textarea{
         width: 70%;
       }
        
@@ -160,7 +160,7 @@ html{
     display:block;    
     
     }
-    textarea{
+    input textarea{
       width: 70%;
     }
      
@@ -180,7 +180,7 @@ html{
     display:block;    
     
     }
-    textarea{
+    input textarea{
       width: 70%;
     }
      
@@ -190,7 +190,7 @@ html{
     display:block;    
     
     }
-    textarea{
+    input textarea{
       width: 70%;
     }
      
@@ -200,8 +200,11 @@ html{
     display:block;    
     
     }
-    textarea{
+  textarea{
       width: 70%;
+    }
+    input {
+        width: 60%;
     }
      
 }
