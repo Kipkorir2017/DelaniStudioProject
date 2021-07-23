@@ -107,20 +107,31 @@ html{
    }
    .contact h4{
     padding-top: 3%;
+    padding-bottom: 2%;
     color: white;
     font-weight: 800;
+
    }
+   
    input{
     background: transparent;
     /* color: transparent; */
     border: 1px whitesmoke solid;
-    width: 32%;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    
+    
     
   }
   textarea{
     background: transparent;
     /* color: transparent; */
     border: 1px whitesmoke solid;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
   }
   ::placeholder{
       color: white;
@@ -177,7 +188,7 @@ html{
 }
 @media screen and (max-width:800px) {
     .contact {
-    display:block;    
+    display:none;    
     
     }
     input textarea{
@@ -187,19 +198,15 @@ html{
 }
 @media screen and (max-width:900px) {
     .contact {
-    display:block;    
+    display:none;    
     
     }
-    input textarea{
+     textarea{
       width: 70%;
     }
      
 }
 @media screen and (max-width:1000px) {
-    .contact {
-    display:block;    
-    
-    }
   textarea{
       width: 70%;
     }
