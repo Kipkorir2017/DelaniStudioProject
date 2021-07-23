@@ -100,13 +100,13 @@ html{
     background:url(../backgroundImages/c_image.jpg);
     opacity: 0.9;
     padding-bottom: 5%;
-    padding-top:3%;
+    padding-top:1%;
     background-size: cover;
     
     
    }
    .contact h4{
-    padding-top: 5%;
+    padding-top: 3%;
     color: white;
     font-weight: 800;
    }
@@ -204,7 +204,7 @@ html{
       width: 70%;
     }
     input {
-        width: 60%;
+        width: 80%;
     }
      
 }
