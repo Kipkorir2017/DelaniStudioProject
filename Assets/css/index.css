@@ -180,6 +180,7 @@ body{
     opacity: 0.9;
     padding:15px;
     background-size: cover;
+    background-position: center;
    }
    .contact_form h4{
     padding-top: 3%;
@@ -297,4 +298,14 @@ body{
     #btn{
         width:30%;
     }
+    input{
+        display: block;
+        padding: 5px;
+    }
 }
+@media screen and (min-width:320px){
+    #btn{
+        width:30%;
+    }
+}
+
