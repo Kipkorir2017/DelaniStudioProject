@@ -13,8 +13,8 @@ Also there is What We do section ,get to know some of the things we do immediate
 ## Known Bugs
 There no known bugs at the moment
 ## Technologies Used
-* HTML
-* CSS
+* HTML5
+* CSS3
 * BootStrap
 * JavaScript
 * Jquery
