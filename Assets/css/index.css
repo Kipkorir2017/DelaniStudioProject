@@ -178,12 +178,10 @@ body{
     text-align: center;
     background:url(../backgroundImages/c_image.jpg);
     opacity: 0.9;
-    padding-bottom: 5%;
     padding:15px;
-
     background-size: cover;
    }
-   .contact h4{
+   .contact_form h4{
     padding-top: 3%;
     padding-bottom: 2%;
     color: white;
