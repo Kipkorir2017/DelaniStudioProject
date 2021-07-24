@@ -19,23 +19,71 @@ function validateForm(){
 }
 
 // Using Jquery to toggle
-$(document).ready(function(){
+$(function(){
     $(".one").click(function(){
     $(".description").slideToggle()
     $("#img1").slideToggle();
+    $(".descr1"+i).css("font-weight","900")
     })
 });
-$(document).ready(function(){
+$(function(){
     $(".two").click(function(){
     $(".description1").slideToggle()
     $("#img2").slideToggle();
     })
 });
-$(document).ready(function(){
+$(function(){
     $(".three").click(function(){
     $(".description2").slideToggle()
     $("#img3").slideToggle();
     })
 });
 
+// jquery to hover effect
 
+$(function () {
+    $("#project1").hover(
+    function () {
+        $("#project1 .solid-border").toggle();
+    });
+});
+    
+$(function(){
+    $("#project2").hover(function () {
+        $("#project2 .solid-border").toggle();
+    });
+});
+
+$(function () {
+    $("#project3").hover(function(){
+        $("#project3 .solid-border").toggle();
+    });
+});
+
+$(function () {
+    $("#project4").hover(function(){
+        $("#project4 .solid-border").toggle();
+    });
+});
+
+$(function(){
+    $("#project5").hover(function(){
+        $("#project5 .solid-border").toggle();
+    });
+});
+$(function () {
+    $("#project6").hover(function(){
+        $("#project6 .solid-border").toggle();
+    });
+});
+$(function(){
+    $("#project7").hover(function(){
+        $("#project7 .solid-border").toggle();   
+    });  
+});
+$(function(){
+    $("#project8").hover(function(){
+        $("#project8 .solid-border").toggle();    
+
+    });
+});
