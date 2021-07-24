@@ -2,6 +2,7 @@
 function validateForm(){
     var name= document.getElementById("name1").value;
     var email= document.getElementById("email1").value;
+    var textArea= document.getElementById("message").value;
     atposition=email.indexOf("@");
     dotposition =email.lastIndexOf(".");
      if(name ===""){
@@ -10,6 +11,10 @@ function validateForm(){
     }
      else if(atposition< 2 || dotposition - atposition<2){
         alert("invalid email");
+        return false;
+    }
+    else if(textArea===""){
+        alert("Kindly write a message!!");
         return false;
     }
     
@@ -39,7 +44,7 @@ $(function(){
     })
 });
 
-// jquery to hover effect
+// jquery  hover effect
 
 $(function () {
     $("#project1").hover(
