@@ -2,7 +2,7 @@
 function validateForm() {
     var name = document.getElementById("name1").value;
     var email = document.getElementById("email1").value;
-    var textArea = document.getElementById("message").value;
+    var textArea = document.getElementById("message").value;    
     atPosition = email.indexOf("@");
     dotPosition = email.lastIndexOf(".");
     if (name === "") {
@@ -91,4 +91,5 @@ $(function () {
         $("#project8 .solid-border").toggle();
 
     });
+   
 });

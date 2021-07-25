@@ -235,6 +235,9 @@ body{
     margin-right: auto;
     padding-top: 2%;
   }
+  a:hover{
+      cursor: pointer;
+  }
 
   /* Media querries */
 
