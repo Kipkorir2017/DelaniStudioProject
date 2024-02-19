@@ -6,7 +6,7 @@ body{
     max-width: 100% ;
 }
 .header{
-    color: white;
+    color: black;
     text-align: center;
     background-image: url(../backgroundImages/h_img.jpg);
     background-size: cover;
