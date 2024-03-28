@@ -19,7 +19,7 @@ function validateForm() {
     }
 
     else {
-        alert(name + ",Your Message has been recieved.Thank you for reaching out to us.")
+        alert("Thank you " + name + "for reaching out to us," +" "+ "Your Message has been recieved.")
     }
 }
 
